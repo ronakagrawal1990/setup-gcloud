@@ -21,8 +21,8 @@ on:
 
 env:
   PROJECT_ID: ${{ secrets.GCE_PROJECT }}
-  GCE_INSTANCE: my-githubactions-vm  # TODO: update to instance name
-  GCE_INSTANCE_ZONE: us-central1-a   # TODO: update to instance zone
+  GCE_INSTANCE: nginx-vm  # TODO: update to instance name
+  GCE_INSTANCE_ZONE: asia-southeast1-b  # TODO: update to instance zone
 
 jobs:
   setup-build-publish-deploy:
