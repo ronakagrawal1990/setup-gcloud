@@ -22,7 +22,7 @@ on:
 env:
   PROJECT_ID: ${{ secrets.GCE_PROJECT }}
   GCE_INSTANCE: nginx-vm  # TODO: update to instance name
-  GCE_INSTANCE_ZONE: asia-southeast1-b  # TODO: update to instance zone
+  GCE_INSTANCE_ZONE: asia-southeast1-b  # TODO: update to instance zonee
 
 jobs:
   setup-build-publish-deploy:
